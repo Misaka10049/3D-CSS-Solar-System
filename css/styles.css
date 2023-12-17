@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(./zihun.ttf);
 /*
   Copyright (c) 2012 Julian Garnier
   Licensed under the MIT license
@@ -630,11 +631,11 @@ body {
 
 /* --------------------------------------------------------------------------- text infos data */
 /* --------------------------------------------------------------------------- speed */
-.set-speed dl.infos dd span:after {
-  content: 'Orbit Velocity'; }
+.set-speed #sun dl.infos dd span:after {
+  content: ''; }
 
 .set-speed #sun dl.infos dd:after {
-  content: '0 km/h'; }
+  content: 'Everyone in the world should get a standing ovation at least once in their life because we all overcometh the world.'; }
 
 .set-speed #mercury dl.infos dd:after {
   content: '170,503 km/h'; }
@@ -1093,16 +1094,18 @@ dl.infos dt {
   margin-bottom: 26px;
   bottom: 30px;
   color: #FFF;
-  font-size: 14px;
+  font-size: 18px;
   text-shadow: 1px 1px 2px black; }
 
 dl.infos dd:after {
   position: absolute;
   left: 50px;
-  bottom: 30px;
-  width: 300px;
+  bottom: -20px;
+  width: 600px;
   color: #FFF;
   font-size: 22px;
+  font-style: italic;
+  font-family: zihun132hao-jiangzhouxingke Regular;
   text-shadow: 1px 1px 2px black; }
 
 dl.infos dd span:after {
